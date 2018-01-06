@@ -2,10 +2,9 @@
 @import "spacing";
 @import "animate";
 @import "font";
-
 $transitionTime: .3s;
-
-html, body {
+html,
+body {
   font-size: 14px;
   line-height: 24px;
   background: $backgroundColor;
@@ -36,4 +35,3 @@ html, body {
   background: $grey300;
   height: 1px;
 }
-
