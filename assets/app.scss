@@ -1,0 +1,39 @@
+@import "color";
+@import "spacing";
+@import "animate";
+@import "font";
+
+$transitionTime: .3s;
+
+html, body {
+  font-size: 14px;
+  line-height: 24px;
+  background: $backgroundColor;
+}
+
+.c-container {
+  margin: 0 auto;
+  width: $contentWidth;
+  box-sizing: border-box;
+}
+
+.c-btn {
+  cursor: pointer;
+  user-select: none;
+}
+
+.c-flex {
+  display: flex;
+  align-items: center;
+}
+
+.c-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.c-divider {
+  background: $grey300;
+  height: 1px;
+}
+
